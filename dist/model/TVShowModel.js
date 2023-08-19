@@ -14,8 +14,8 @@ const tvShowSchema = new mongoose_1.default.Schema({
     cast: [String],
     language: String,
     network: String,
-    seasons: Number,
-    episodes: Number,
+    seasons: String,
+    episodes: String,
     imageURL: String,
     originalRelease: String,
 });
