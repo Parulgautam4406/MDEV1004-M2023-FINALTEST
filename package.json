@@ -7,7 +7,7 @@
     "build": "tsc"
   },
   "keywords": [],
-  "author": "Parul Gautam",
+  "author": "PARUL GAUTAM",
   "license": "ISC",
   "dependencies": {
     "@types/bcrypt": "^5.0.0",

@@ -12,8 +12,8 @@ export interface TVShow extends Document {
   cast: string[];
   language: string;
   network: string;
-  seasons: number;
-  episodes: number;
+  seasons: String;
+  episodes: String;
   imageURL: string;
   originalRelease: string;
 }
@@ -28,8 +28,8 @@ const tvShowSchema: Schema = new mongoose.Schema({
   cast: [String],
   language: String,
   network: String,
-  seasons: Number,
-  episodes: Number,
+  seasons: String,
+  episodes: String,
   imageURL: String,
   originalRelease: String,
 });
